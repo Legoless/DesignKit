@@ -6,7 +6,8 @@ iOS / OS X framework that attempts to mimic Photoshop's Blending Options. As muc
 Effects
 =======
 
-Blur
-Stroke (outside, inside)
-Color overlay
-Gradient overlay
+- Blur
+- Stroke (outside, inside)
+- Color overlay
+- Gradient overlay
+- Drop shadow
