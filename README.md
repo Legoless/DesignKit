@@ -11,6 +11,8 @@ Effects
 - Color overlay
 - Gradient overlay
 - Drop shadow
+- Inner glow
+- Outer glow
 
 Contributions
 ======
