@@ -16,6 +16,11 @@ The following effects from Photoshop's blending options are currently implemente
 - Inner glow
 - Outer glow
 
+Compatibility
+========
+
+The framework only supports iOS7 as of now.
+
 Contributions
 ======
 
