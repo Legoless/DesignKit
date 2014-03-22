@@ -16,6 +16,10 @@ The following effects from Photoshop's blending options are currently implemente
 - Inner glow
 - Outer glow
 
+Rendering
+=======
+All effects are rendered on a separate UIView that is placed above the target layer in the view hierarchy. This allows for setting the opacity of each effect separately.
+
 Compatibility
 ========
 
