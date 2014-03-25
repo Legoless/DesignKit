@@ -20,6 +20,10 @@ Rendering
 =======
 All effects are rendered on a separate UIView that is placed above the target layer in the view hierarchy. This allows for setting the opacity of each effect separately.
 
+Icons & Colors
+=======
+Effect kit contains most commonly used icons and colors.
+
 Compatibility
 ========
 
