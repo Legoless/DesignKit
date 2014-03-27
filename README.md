@@ -1,14 +1,25 @@
 EffectKit
 =======
 
-iOS / OS X framework that attempts to mimic Photoshop's Blending Options. As much as possible. Open .PSD file created in Photoshop and use assets directly in code.
+iOS / OS X framework that attempts to bridge the gap between designs created in Adobe Photoshop Tool. As much as possible. Open .PSD file created in Photoshop and use assets directly in code.
+
+Colors
+=======
+
+Working with colors has been made easy with EffectKit. Just use UIColorFromKey macro and it will automatically figure out what color you mean, whether you asked for a color by name, hex-decimal value or RGB values.
+
+Filters
+=======
+
+Effect kit also includes Photoshop filters which can be done on all UIImage layers. Otherwise you must call rasterize method on UIView to convert it into an image.
+
+- Blur
 
 Effects
 =======
 
 The following effects from Photoshop's blending options are currently implemented / or in progress.
 
-- Blur
 - Stroke (outside, inside)
 - Color overlay
 - Gradient overlay
@@ -27,7 +38,7 @@ Effect kit contains most commonly used icons and colors.
 Compatibility
 ========
 
-The framework only supports iOS7 as of now.
+The framework requires iOS 7.
 
 Contributions
 ======
