@@ -14,6 +14,7 @@ Filters
 Effect kit also includes Photoshop filters which can be done on all UIImage layers. Otherwise you must call rasterize method on UIView to convert it into an image.
 
 - Blur
+- Edge Detection
 
 Effects
 =======
