@@ -1,7 +1,7 @@
 EffectKit
 =======
 
-iOS / OS X framework that attempts to bridge the gap between designs created in Adobe Photoshop Tool. As much as possible. Open .PSD file created in Photoshop and use assets directly in code.
+Innovative iOS framework that attempts to bridge the gap between designs created in Adobe Photoshop Tool. As much as possible. Open .PSD file created in Photoshop and use shape and bitmap assets directly in code.
 
 Colors
 =======
@@ -28,9 +28,9 @@ The following effects from Photoshop's blending options are currently implemente
 - Inner glow
 - Outer glow
 
-Rendering
+Technique
 =======
-All effects are rendered on a separate UIView that is placed above the target layer in the view hierarchy. This allows for setting the opacity of each effect separately.
+The effects are rendered each on a separate UIViews that are placed above the target layer in the view hierarchy. This allows for setting the opacity of each effect separately, including the layer itself.
 
 Icons & Colors
 =======
