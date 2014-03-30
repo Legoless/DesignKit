@@ -12,6 +12,4 @@
 
 @property (nonatomic, strong) DRBlendingOptions* blendingOptions;
 
-@property (nonatomic, weak
-
 @end

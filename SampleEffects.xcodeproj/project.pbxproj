@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3821196218E8BCE800B16CA0 /* DesignKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignKit.h; sourceTree = "<group>"; };
 		387E9FC718D0FB6F00EAC29B /* SampleEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387E9FCA18D0FB6F00EAC29B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		387E9FCC18D0FB6F00EAC29B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,7 +57,6 @@
 		387E9FF118D0FB6F00EAC29B /* SampleEffectsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleEffectsTests-Info.plist"; sourceTree = "<group>"; };
 		387E9FF318D0FB6F00EAC29B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		387E9FF518D0FB6F00EAC29B /* SampleEffectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleEffectsTests.m; sourceTree = "<group>"; };
-		38836AC618D1E6980067565D /* EffectKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EffectKit.h; sourceTree = "<group>"; };
 		38836AC718D1E6BC0067565D /* UIView+Effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Effects.h"; sourceTree = "<group>"; };
 		38836AC818D1E6BC0067565D /* UIView+Effects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Effects.m"; sourceTree = "<group>"; };
 		38836ACA18D1E6F90067565D /* DRBlendingOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRBlendingOptions.h; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		387E9FBE18D0FB6F00EAC29B = {
 			isa = PBXGroup;
 			children = (
-				38836AC418D1E67A0067565D /* EffectKit */,
+				38836AC418D1E67A0067565D /* DesignKit */,
 				387E9FD018D0FB6F00EAC29B /* SampleEffects */,
 				387E9FEF18D0FB6F00EAC29B /* SampleEffectsTests */,
 				387E9FC918D0FB6F00EAC29B /* Frameworks */,
@@ -164,13 +164,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		38836AC418D1E67A0067565D /* EffectKit */ = {
+		38836AC418D1E67A0067565D /* DesignKit */ = {
 			isa = PBXGroup;
 			children = (
 				38836AC518D1E6890067565D /* Core */,
-				38836AC618D1E6980067565D /* EffectKit.h */,
+				3821196218E8BCE800B16CA0 /* DesignKit.h */,
 			);
-			path = EffectKit;
+			path = DesignKit;
 			sourceTree = "<group>";
 		};
 		38836AC518D1E6890067565D /* Core */ = {
