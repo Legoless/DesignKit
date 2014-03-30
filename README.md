@@ -1,23 +1,19 @@
-EffectKit
-=======
+# DesignKit
 
 Innovative iOS framework that attempts to bridge the gap between designs created in Adobe Photoshop Tool. As much as possible. Open .PSD file created in Photoshop and use shape and bitmap assets directly in code.
 
-Colors
-=======
+### Colors
 
-Working with colors has been made easy with EffectKit. Just use UIColorFromKey macro and it will automatically figure out what color you mean, whether you asked for a color by name, hex-decimal value or RGB values.
+Working with colors has been made easy with DesignKit. Just use UIColorFromKey macro and it will automatically figure out what color you mean, whether you asked for a color by name, hex-decimal value or RGB values.
 
-Filters
-=======
+### Filters
 
 Effect kit also includes Photoshop filters which can be done on all UIImage layers. Otherwise you must call rasterize method on UIView to convert it into an image.
 
 - Blur
 - Edge Detection
 
-Effects
-=======
+### Effects
 
 The following effects from Photoshop's blending options are currently implemented / or in progress.
 
@@ -28,13 +24,11 @@ The following effects from Photoshop's blending options are currently implemente
 - Inner glow
 - Outer glow
 
-Technique
-=======
-The effects are rendered each on a separate UIViews that are placed above the target layer in the view hierarchy. This allows for setting the opacity of each effect separately, including the layer itself.
+### Icons
 
-Icons & Colors
-=======
-Effect kit contains most commonly used icons and colors.
+# Technique
+
+The effects are rendered each on a separate UIViews that are placed above the target layer in the view hierarchy. This allows for setting the opacity of each effect separately, including the layer itself.
 
 Compatibility
 ========
