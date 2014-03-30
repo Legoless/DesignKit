@@ -1,6 +1,12 @@
 # DesignKit
 
-Innovative iOS framework that attempts to bridge the gap between designs created in Adobe Photoshop Tool. As much as possible. Open .PSD file created in Photoshop and use shape and bitmap assets directly in code.
+Innovative iOS framework that attempts to bridge the gap between designs created in Adobe Photoshop Tool. As much as possible..
+
+## Features
+
+DesignKit offers many features that aid in transferring Photoshop designs into a working application. Some of them are described below in detail.
+
+There are also options to open .PSD file created in Photoshop and use shape and bitmap assets directly in code.
 
 ### Colors
 
