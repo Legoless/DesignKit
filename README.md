@@ -32,6 +32,8 @@ The following effects from Photoshop's blending options are currently implemente
 
 ### Icons
 
+DesignKit provides many vector icons out of the box.
+
 # Technique
 
 The effects are rendered each on a separate UIViews that are placed above the target layer in the view hierarchy. This allows for setting the opacity of each effect separately, including the layer itself.
