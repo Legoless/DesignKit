@@ -1,6 +1,6 @@
 # DesignKit
 
-Innovative iOS framework that attempts to bridge the gap between designs created in Adobe Photoshop Tool. As much as possible..
+Innovative iOS framework that attempts to bridge the gap between designs created in Adobe Photoshop Tool. It's main mission is to enable developers to quickly create a living design out from PSD's provided by a designer.
 
 ## Features
 
