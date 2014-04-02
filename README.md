@@ -50,3 +50,14 @@ The following projects were a great help in creating the **EffectKit**.
 
 - https://github.com/bengotow/PSDWriter
 - https://github.com/layervault/psd.rb
+
+Contact
+======
+
+legoless@arvystate.net
+@thelegoless on Twitter
+
+License
+======
+
+Completely free. See LICENSE file for more information.
