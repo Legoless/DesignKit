@@ -32,7 +32,7 @@ The following effects from Photoshop's blending options are currently implemente
 
 ### Icons
 
-DesignKit provides many vector icons out of the box.
+DesignKit provides many vector icons out of the box, used for social icons and most common tasks.
 
 # Technique
 
@@ -41,7 +41,7 @@ The effects are rendered each on a separate UIViews that are placed above the ta
 Compatibility
 ========
 
-The framework requires iOS 7.
+The framework requires iOS 7 or Mac OS X 10.9.
 
 Contributions
 ======
