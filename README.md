@@ -46,7 +46,7 @@ The framework requires iOS 7 or Mac OS X 10.9.
 Contributions
 ======
 
-The following projects were a great help in creating the **EffectKit**.
+The following projects were a great help in creating the **DesignKit**.
 
 - https://github.com/bengotow/PSDWriter
 - https://github.com/layervault/psd.rb
@@ -57,10 +57,10 @@ Contact
 Dal Rupnik
 
 - [GitHub](https://github.com/legoless)
-- [**@thelegoless**](https://twitter.com/thelegoless) on Twitter
+- [@thelegoless](https://twitter.com/thelegoless) on Twitter
 - [legoless@arvystate.net](mailto:legoless@arvystate.net)
-- 
+
 License
 ======
 
-Completely free. See LICENSE file for more information.
+Completely free. See [LICENSE](https://github.com/Legoless/DesignKit/blob/master/LICENSE) file for more information.
