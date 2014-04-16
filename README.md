@@ -54,9 +54,12 @@ The following projects were a great help in creating the **EffectKit**.
 Contact
 ======
 
-legoless@arvystate.net
-@thelegoless on Twitter
+Dal Rupnik
 
+- [GitHub](https://github.com/legoless)
+- [**@thelegoless**](https://twitter.com/thelegoless) on Twitter
+- [legoless@arvystate.net](mailto:legoless@arvystate.net)
+- 
 License
 ======
 
