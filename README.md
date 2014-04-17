@@ -2,6 +2,8 @@
 
 Innovative iOS framework that attempts to bridge the gap between designs created in Adobe Photoshop Tool. It's main mission is to enable developers to quickly create a living design out from PSD's provided by a designer.
 
+DesignKit is tightly coupled together with DesignKit Photoshop CC extension to enable more advanced functionalities.
+
 ## Features
 
 DesignKit offers many features that aid in transferring Photoshop designs into a working application. Some of them are described below in detail.
