@@ -12,7 +12,7 @@ There are also options to open .PSD file created in Photoshop and use shape and 
 
 ### Colors
 
-Working with colors has been made easy with DesignKit. Just use UIColorFromKey macro and it will automatically figure out what color you mean, whether you asked for a color by name, hex-decimal value or RGB values.
+Working with colors has been made easy with DesignKit. Just use UIColorFromKey macro and it will automatically figure out what color you mean, whether you asked for a color by name, hex-decimal value or RGB values. We have added hundreds of prebuilt colors which can be used in the application. They include company slogan colors and flat color library.
 
 ### Filters
 
