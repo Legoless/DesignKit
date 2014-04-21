@@ -8,7 +8,7 @@ DesignKit is tightly coupled together with Photoshop CC extension to be able to 
 
 DesignKit offers many features that aid in transferring Photoshop designs into a working application. Some of them are described below in detail.
 
-There are also options to open .PSD file created in Photoshop and use shape and bitmap assets directly in code.
+There are also options to open .PSD file created in Photoshop and use shape and bitmap assets directly in code. Still work in progress.
 
 ### Colors
 
