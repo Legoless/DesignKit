@@ -4,6 +4,8 @@ Innovative iOS framework that attempts to bridge the gap between designs created
 
 DesignKit is tightly coupled together with Photoshop CC extension to be able to export code directly from Photoshop.
 
+DesignKit also connects multiple iOS libraries together to create a larger framework that allows developers to create fast and beautiful designs.
+
 Project is currently WIP, please be patient as it gets developed.
 
 ## Features
