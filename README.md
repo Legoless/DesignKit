@@ -49,6 +49,10 @@ Compatibility
 
 The framework requires iOS 7 or Mac OS X 10.9.
 
+Testing
+========
+Just download the zip and open the sample project.
+
 Contributions
 ======
 
