@@ -27,7 +27,7 @@ Working with colors has been made easy with DesignKit. Just use UIColorFromKey m
 
 ### Filters
 
-Effect kit also includes Photoshop filters which can be done on all UIImage layers. Otherwise you must call rasterize method on UIView to convert it into an image.
+DesignKit also includes Photoshop filters which can be done on all UIImage layers. Otherwise you must call rasterize method on UIView to convert it into an image.
 
 - Blur
 - Edge Detection
