@@ -6,13 +6,20 @@ DesignKit is tightly coupled together with Photoshop CC extension to be able to 
 
 DesignKit also connects multiple iOS libraries together to create a larger framework that allows developers to create fast and beautiful designs.
 
-Project is currently WIP, please be patient as it gets developed. Integration with Sketch 3 is also planned.
+Project is currently WIP, please be patient as it gets developed. Integration with Sketch 3 is also planned soon.
+
 
 ## Features
 
 DesignKit offers many features that aid in transferring Photoshop designs into a working application. Some of them are described below in detail.
 
 There are also options to open .PSD file created in Photoshop and use shape and bitmap assets directly in code. Still work in progress.
+
+## Support
+
+DesignKit supports many of the popular design and UX plugins out of the box.
+- POP Animation Framework
+- NUI
 
 ### Colors
 
