@@ -43,9 +43,9 @@ The following effects from Photoshop's blending options are currently implemente
 - Inner glow
 - Outer glow
 
-### Icons
+### Vectors
 
-DesignKit provides many vector icons out of the box, used for social icons and most common tasks.
+DesignKit provides many vector icons out of the box, used for social icons and most common tasks. The vectorized icons can have blending options added as well.
 
 # Technique
 
