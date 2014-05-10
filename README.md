@@ -15,11 +15,18 @@ DesignKit offers many features that aid in transferring Photoshop designs into a
 
 There are also options to open .PSD file created in Photoshop and use shape and bitmap assets directly in code. Still work in progress.
 
+DesignKit also includes new layout managers:
+- Grid
+- StackPanel
+- FlowPanel
+- DockPanel
+
 ## Support
 
 DesignKit supports many of the popular design and UX plugins out of the box.
 - POP Animation Framework
-- NUI
+- NU
+- Masonry
 
 ### Colors
 
