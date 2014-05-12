@@ -27,6 +27,7 @@ DesignKit supports many of the popular design and UX plugins out of the box.
 - POP Animation Framework
 - NU
 - Masonry
+- SVGKit
 
 ### Colors
 
