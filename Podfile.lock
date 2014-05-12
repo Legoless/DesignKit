@@ -1,0 +1,33 @@
+PODS:
+  - CocoaLumberjack (1.8.1):
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (1.8.1)
+  - CocoaLumberjack/Extensions (1.8.1):
+    - CocoaLumberjack/Core
+  - Haystack (0.4.3)
+  - NUI (0.5.4):
+    - NUIParse
+  - NUIParse (1.2)
+  - pop (1.0.4)
+  - SVGKit (1.x):
+    - CocoaLumberjack
+
+DEPENDENCIES:
+  - Haystack
+  - NUI
+  - pop
+  - SVGKit (from `https://github.com/SVGKit/SVGKit.git`)
+
+EXTERNAL SOURCES:
+  SVGKit:
+    :git: https://github.com/SVGKit/SVGKit.git
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 020378ec400d658923bf5887178394f65f052c90
+  Haystack: 96375dfc171bf39ff58b373b592ff8a56f394a2a
+  NUI: 4859620744f2645e596d0a3b949dd66868d1fc52
+  NUIParse: 14e226aa09f10f109dbd6863759e07f80276f397
+  pop: 63a4f5e8942077fed2efe195036ecc572c71c48c
+  SVGKit: ec39d180c0629eb9f839df15fce3c76f3c0a96bb
+
+COCOAPODS: 0.32.1

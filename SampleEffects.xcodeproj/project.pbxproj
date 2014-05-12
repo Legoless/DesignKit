@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112E0137C9D04B4DAD4AE617 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7608FB4AEE3D475DAB1983B8 /* libPods.a */; };
+		386D485E18EC8A0F00FD7F68 /* UIColor+Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 386D485718EC8A0F00FD7F68 /* UIColor+Company.m */; };
+		386D485F18EC8A0F00FD7F68 /* UIColor+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 386D485A18EC8A0F00FD7F68 /* UIColor+Create.m */; };
+		386D486018EC8A0F00FD7F68 /* UIColor+Flat.m in Sources */ = {isa = PBXBuildFile; fileRef = 386D485D18EC8A0F00FD7F68 /* UIColor+Flat.m */; };
+		386D486318EC8A3B00FD7F68 /* UIView+DesignKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 386D486218EC8A3B00FD7F68 /* UIView+DesignKit.m */; };
+		386D486718EC8B6E00FD7F68 /* DKSmartFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 386D486618EC8B6E00FD7F68 /* DKSmartFilters.m */; };
+		386D486A18EC8B7A00FD7F68 /* DKBlendingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 386D486918EC8B7A00FD7F68 /* DKBlendingOptions.m */; };
+		386D486D18EC93E600FD7F68 /* DKColorOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 386D486C18EC93E600FD7F68 /* DKColorOverlay.m */; };
+		387D3A61190AEBA70022297C /* DKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 387D3A60190AEBA70022297C /* DKView.m */; };
 		387E9FCB18D0FB6F00EAC29B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E9FCA18D0FB6F00EAC29B /* Foundation.framework */; };
 		387E9FCD18D0FB6F00EAC29B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E9FCC18D0FB6F00EAC29B /* CoreGraphics.framework */; };
 		387E9FCF18D0FB6F00EAC29B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E9FCE18D0FB6F00EAC29B /* UIKit.framework */; };
@@ -21,9 +30,9 @@
 		387E9FEC18D0FB6F00EAC29B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E9FCE18D0FB6F00EAC29B /* UIKit.framework */; };
 		387E9FF418D0FB6F00EAC29B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 387E9FF218D0FB6F00EAC29B /* InfoPlist.strings */; };
 		387E9FF618D0FB6F00EAC29B /* SampleEffectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E9FF518D0FB6F00EAC29B /* SampleEffectsTests.m */; };
-		38836AC918D1E6BC0067565D /* UIView+Effects.m in Sources */ = {isa = PBXBuildFile; fileRef = 38836AC818D1E6BC0067565D /* UIView+Effects.m */; };
-		38836ACC18D1E6F90067565D /* DRBlendingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 38836ACB18D1E6F90067565D /* DRBlendingOptions.m */; };
-		38836AD018D1ED100067565D /* DRBlendingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38836ACF18D1ED100067565D /* DRBlendingView.m */; };
+		67E643FC642432DE8D9F25C2 /* DKSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E6498B960F11C00CDD469A /* DKSingleton.m */; };
+		67E646BBF4439D29E4E5336F /* Style.nss in Resources */ = {isa = PBXBuildFile; fileRef = 67E648E6DC7A5B02EF0444B1 /* Style.nss */; };
+		67E64917A53474F06A74C6FF /* DesignKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E64921FB681698D202C5D7 /* DesignKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +47,22 @@
 
 /* Begin PBXFileReference section */
 		3821196218E8BCE800B16CA0 /* DesignKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignKit.h; sourceTree = "<group>"; };
+		386D485618EC8A0F00FD7F68 /* UIColor+Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Company.h"; sourceTree = "<group>"; };
+		386D485718EC8A0F00FD7F68 /* UIColor+Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Company.m"; sourceTree = "<group>"; };
+		386D485918EC8A0F00FD7F68 /* UIColor+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Create.h"; sourceTree = "<group>"; };
+		386D485A18EC8A0F00FD7F68 /* UIColor+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Create.m"; sourceTree = "<group>"; };
+		386D485C18EC8A0F00FD7F68 /* UIColor+Flat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Flat.h"; sourceTree = "<group>"; };
+		386D485D18EC8A0F00FD7F68 /* UIColor+Flat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Flat.m"; sourceTree = "<group>"; };
+		386D486118EC8A3B00FD7F68 /* UIView+DesignKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DesignKit.h"; sourceTree = "<group>"; };
+		386D486218EC8A3B00FD7F68 /* UIView+DesignKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DesignKit.m"; sourceTree = "<group>"; };
+		386D486518EC8B6E00FD7F68 /* DKSmartFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSmartFilters.h; sourceTree = "<group>"; };
+		386D486618EC8B6E00FD7F68 /* DKSmartFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSmartFilters.m; sourceTree = "<group>"; };
+		386D486818EC8B7A00FD7F68 /* DKBlendingOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBlendingOptions.h; sourceTree = "<group>"; };
+		386D486918EC8B7A00FD7F68 /* DKBlendingOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBlendingOptions.m; sourceTree = "<group>"; };
+		386D486B18EC93E600FD7F68 /* DKColorOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKColorOverlay.h; sourceTree = "<group>"; };
+		386D486C18EC93E600FD7F68 /* DKColorOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKColorOverlay.m; sourceTree = "<group>"; };
+		387D3A5F190AEBA70022297C /* DKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKView.h; sourceTree = "<group>"; };
+		387D3A60190AEBA70022297C /* DKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKView.m; sourceTree = "<group>"; };
 		387E9FC718D0FB6F00EAC29B /* SampleEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387E9FCA18D0FB6F00EAC29B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		387E9FCC18D0FB6F00EAC29B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,13 +82,13 @@
 		387E9FF118D0FB6F00EAC29B /* SampleEffectsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleEffectsTests-Info.plist"; sourceTree = "<group>"; };
 		387E9FF318D0FB6F00EAC29B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		387E9FF518D0FB6F00EAC29B /* SampleEffectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleEffectsTests.m; sourceTree = "<group>"; };
-		38836AC718D1E6BC0067565D /* UIView+Effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Effects.h"; sourceTree = "<group>"; };
-		38836AC818D1E6BC0067565D /* UIView+Effects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Effects.m"; sourceTree = "<group>"; };
-		38836ACA18D1E6F90067565D /* DRBlendingOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRBlendingOptions.h; sourceTree = "<group>"; };
-		38836ACB18D1E6F90067565D /* DRBlendingOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRBlendingOptions.m; sourceTree = "<group>"; };
-		38836ACD18D1E78C0067565D /* DRBlendingOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRBlendingOption.h; sourceTree = "<group>"; };
-		38836ACE18D1ED100067565D /* DRBlendingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRBlendingView.h; sourceTree = "<group>"; };
-		38836ACF18D1ED100067565D /* DRBlendingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRBlendingView.m; sourceTree = "<group>"; };
+		67E648E6DC7A5B02EF0444B1 /* Style.nss */ = {isa = PBXFileReference; lastKnownFileType = file.nss; path = Style.nss; sourceTree = "<group>"; };
+		67E64921FB681698D202C5D7 /* DesignKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignKit.m; sourceTree = "<group>"; };
+		67E6498B960F11C00CDD469A /* DKSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSingleton.m; sourceTree = "<group>"; };
+		67E64D3B8B1D16F7D4B86321 /* DKSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSingleton.h; sourceTree = "<group>"; };
+		67E64EB194854C512A6C700D /* DesignKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignKit.h; sourceTree = "<group>"; };
+		7608FB4AEE3D475DAB1983B8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB960AEC1F574B60B4D4BC55 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +99,7 @@
 				387E9FCD18D0FB6F00EAC29B /* CoreGraphics.framework in Frameworks */,
 				387E9FCF18D0FB6F00EAC29B /* UIKit.framework in Frameworks */,
 				387E9FCB18D0FB6F00EAC29B /* Foundation.framework in Frameworks */,
+				112E0137C9D04B4DAD4AE617 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +116,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		386D485318EC89FA00FD7F68 /* Blending */ = {
+			isa = PBXGroup;
+			children = (
+				386D486818EC8B7A00FD7F68 /* DKBlendingOptions.h */,
+				386D486918EC8B7A00FD7F68 /* DKBlendingOptions.m */,
+				386D486B18EC93E600FD7F68 /* DKColorOverlay.h */,
+				386D486C18EC93E600FD7F68 /* DKColorOverlay.m */,
+			);
+			path = Blending;
+			sourceTree = "<group>";
+		};
+		386D485418EC8A0F00FD7F68 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				386D485518EC8A0F00FD7F68 /* UIColor+Company */,
+				386D485818EC8A0F00FD7F68 /* UIColor+Create */,
+				386D485B18EC8A0F00FD7F68 /* UIColor+Flat */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		386D485518EC8A0F00FD7F68 /* UIColor+Company */ = {
+			isa = PBXGroup;
+			children = (
+				386D485618EC8A0F00FD7F68 /* UIColor+Company.h */,
+				386D485718EC8A0F00FD7F68 /* UIColor+Company.m */,
+			);
+			path = "UIColor+Company";
+			sourceTree = "<group>";
+		};
+		386D485818EC8A0F00FD7F68 /* UIColor+Create */ = {
+			isa = PBXGroup;
+			children = (
+				386D485918EC8A0F00FD7F68 /* UIColor+Create.h */,
+				386D485A18EC8A0F00FD7F68 /* UIColor+Create.m */,
+			);
+			path = "UIColor+Create";
+			sourceTree = "<group>";
+		};
+		386D485B18EC8A0F00FD7F68 /* UIColor+Flat */ = {
+			isa = PBXGroup;
+			children = (
+				386D485C18EC8A0F00FD7F68 /* UIColor+Flat.h */,
+				386D485D18EC8A0F00FD7F68 /* UIColor+Flat.m */,
+			);
+			path = "UIColor+Flat";
+			sourceTree = "<group>";
+		};
+		386D486418EC8A8600FD7F68 /* Smart Filters */ = {
+			isa = PBXGroup;
+			children = (
+				386D486518EC8B6E00FD7F68 /* DKSmartFilters.h */,
+				386D486618EC8B6E00FD7F68 /* DKSmartFilters.m */,
+			);
+			path = "Smart Filters";
+			sourceTree = "<group>";
+		};
+		387D3A5E190AEB8C0022297C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				387D3A5F190AEBA70022297C /* DKView.h */,
+				387D3A60190AEBA70022297C /* DKView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		387E9FBE18D0FB6F00EAC29B = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +190,7 @@
 				387E9FEF18D0FB6F00EAC29B /* SampleEffectsTests */,
 				387E9FC918D0FB6F00EAC29B /* Frameworks */,
 				387E9FC818D0FB6F00EAC29B /* Products */,
+				BB960AEC1F574B60B4D4BC55 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +210,7 @@
 				387E9FCC18D0FB6F00EAC29B /* CoreGraphics.framework */,
 				387E9FCE18D0FB6F00EAC29B /* UIKit.framework */,
 				387E9FE918D0FB6F00EAC29B /* XCTest.framework */,
+				7608FB4AEE3D475DAB1983B8 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,6 +225,7 @@
 				387E9FE018D0FB6F00EAC29B /* ViewController.m */,
 				387E9FE218D0FB6F00EAC29B /* Images.xcassets */,
 				387E9FD118D0FB6F00EAC29B /* Supporting Files */,
+				67E648E6DC7A5B02EF0444B1 /* Style.nss */,
 			);
 			path = SampleEffects;
 			sourceTree = "<group>";
@@ -167,7 +262,11 @@
 		38836AC418D1E67A0067565D /* DesignKit */ = {
 			isa = PBXGroup;
 			children = (
+				386D485318EC89FA00FD7F68 /* Blending */,
+				386D485418EC8A0F00FD7F68 /* Colors */,
 				38836AC518D1E6890067565D /* Core */,
+				386D486418EC8A8600FD7F68 /* Smart Filters */,
+				387D3A5E190AEB8C0022297C /* View */,
 				3821196218E8BCE800B16CA0 /* DesignKit.h */,
 			);
 			path = DesignKit;
@@ -176,13 +275,12 @@
 		38836AC518D1E6890067565D /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				38836ACA18D1E6F90067565D /* DRBlendingOptions.h */,
-				38836ACB18D1E6F90067565D /* DRBlendingOptions.m */,
-				38836ACD18D1E78C0067565D /* DRBlendingOption.h */,
-				38836AC718D1E6BC0067565D /* UIView+Effects.h */,
-				38836AC818D1E6BC0067565D /* UIView+Effects.m */,
-				38836ACE18D1ED100067565D /* DRBlendingView.h */,
-				38836ACF18D1ED100067565D /* DRBlendingView.m */,
+				386D486118EC8A3B00FD7F68 /* UIView+DesignKit.h */,
+				386D486218EC8A3B00FD7F68 /* UIView+DesignKit.m */,
+				67E64921FB681698D202C5D7 /* DesignKit.m */,
+				67E64EB194854C512A6C700D /* DesignKit.h */,
+				67E6498B960F11C00CDD469A /* DKSingleton.m */,
+				67E64D3B8B1D16F7D4B86321 /* DKSingleton.h */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -194,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 387E9FF918D0FB6F00EAC29B /* Build configuration list for PBXNativeTarget "SampleEffects" */;
 			buildPhases = (
+				2015D4D2B111403AA1FECF99 /* Check Pods Manifest.lock */,
 				387E9FC318D0FB6F00EAC29B /* Sources */,
 				387E9FC418D0FB6F00EAC29B /* Frameworks */,
 				387E9FC518D0FB6F00EAC29B /* Resources */,
+				618DFCCD6FA146279D7A3F27 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +350,8 @@
 			mainGroup = 387E9FBE18D0FB6F00EAC29B;
 			productRefGroup = 387E9FC818D0FB6F00EAC29B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				387E9FC618D0FB6F00EAC29B /* SampleEffects */,
@@ -266,6 +368,7 @@
 				387E9FE318D0FB6F00EAC29B /* Images.xcassets in Resources */,
 				387E9FD518D0FB6F00EAC29B /* InfoPlist.strings in Resources */,
 				387E9FDE18D0FB6F00EAC29B /* Main.storyboard in Resources */,
+				67E646BBF4439D29E4E5336F /* Style.nss in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,17 +382,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2015D4D2B111403AA1FECF99 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		618DFCCD6FA146279D7A3F27 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		387E9FC318D0FB6F00EAC29B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38836ACC18D1E6F90067565D /* DRBlendingOptions.m in Sources */,
-				38836AD018D1ED100067565D /* DRBlendingView.m in Sources */,
 				387E9FE118D0FB6F00EAC29B /* ViewController.m in Sources */,
+				386D485E18EC8A0F00FD7F68 /* UIColor+Company.m in Sources */,
+				386D486A18EC8B7A00FD7F68 /* DKBlendingOptions.m in Sources */,
+				386D486718EC8B6E00FD7F68 /* DKSmartFilters.m in Sources */,
 				387E9FDB18D0FB6F00EAC29B /* AppDelegate.m in Sources */,
+				386D486018EC8A0F00FD7F68 /* UIColor+Flat.m in Sources */,
 				387E9FD718D0FB6F00EAC29B /* main.m in Sources */,
-				38836AC918D1E6BC0067565D /* UIView+Effects.m in Sources */,
+				386D486318EC8A3B00FD7F68 /* UIView+DesignKit.m in Sources */,
+				387D3A61190AEBA70022297C /* DKView.m in Sources */,
+				386D485F18EC8A0F00FD7F68 /* UIColor+Create.m in Sources */,
+				386D486D18EC93E600FD7F68 /* DKColorOverlay.m in Sources */,
+				67E64917A53474F06A74C6FF /* DesignKit.m in Sources */,
+				67E643FC642432DE8D9F25C2 /* DKSingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +554,7 @@
 		};
 		387E9FFA18D0FB6F00EAC29B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB960AEC1F574B60B4D4BC55 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -424,6 +568,7 @@
 		};
 		387E9FFB18D0FB6F00EAC29B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB960AEC1F574B60B4D4BC55 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

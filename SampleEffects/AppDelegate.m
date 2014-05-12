@@ -6,13 +6,19 @@
 //  Copyright (c) 2014 arvystate.net. All rights reserved.
 //
 
+#import "DesignKit.h"
+
 #import "AppDelegate.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    /*!
+     * This application will use global style
+     */
+    [DesignKit setupWithStyle:@"Style"];
+
     return YES;
 }
 							

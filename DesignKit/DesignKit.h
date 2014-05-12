@@ -6,9 +6,16 @@
 //  Copyright (c) 2014 arvystate.net. All rights reserved.
 //
 
-#ifndef EffectKit
-#define EffectKit
+#ifndef DesignKit
+#define DesignKit
 
+/*!
+ * Import NUI settings, as main DesignKit module integrates with NUI directly
+ */
+#import <NUI/NUISettings.h>
 
+#import "DKBlendingOptions.h"
+#import "DKSmartFilters.h"
+#import "UIView+DesignKit.h"
 
 #endif
