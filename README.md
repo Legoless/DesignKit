@@ -12,7 +12,7 @@ The mission of this innovative iOS framework is to enhance and speed up the crea
   
 - **Attempts to bridge the gap between design tools and iOS SDK:**
   
-  *There are many designer tools that are basically built to create gorgeous iOS interfaces. DesignKit provides plugins and extensions for popular designing tools such as Sketch 3 and Adobe Photoshop CC. Plugins will generate native DesignKit code to be used in existing projects.*
+  *DesignKit provides plugins and extensions for popular designing tools such as Sketch 3 and Adobe Photoshop CC. Plugins will generate native DesignKit code to be used in existing projects.*
 
 - **Adds multiple design sources that can used in many projects out of the box:**
   
