@@ -15,9 +15,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     /*!
-     * This application will use global style
+     * This application will use stylesheet defined in Style.nss file.
      */
-    [DesignKit setupWithStyle:@"Style"];
+    [DesignKit setupWithStylesheetPath:@"Style"];
 
     return YES;
 }

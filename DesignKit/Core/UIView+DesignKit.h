@@ -6,14 +6,27 @@
 //  Copyright (c) 2014 arvystate.net. All rights reserved.
 //
 
-#import "DKBlendingOptions.h"
-#import "DKSmartFilters.h"
+#import <NUI/NUIConstants.h>
+#import "DKStyle.h"
 
 @interface UIView (DesignKit)
 
-@property (nonatomic, readonly) DKBlendingOptions* blendingOptions;
-@property (nonatomic, readonly) DKSmartFilters* smartFilters;
+/*!
+ * Access to style for the current UIView. Style can be manipulated directly, but the changes
+ * are reflected globally on all objects that use this style.
+ *
+ * Style is nil when no style was set in the stylesheet (or stylesheet is not prepared)
+ * When style is specifically set as DKStyleClassNone
+ */
+@property (nonatomic, readonly) DKStyle* style;
 
-- (void)setup;
+/*!
+ * Get or set the style key. Do not attempt to change the style property of the class,
+ * as it will break the rendering system.
+ *
+ * - Use DKStyleClassDefault for the default class (depending on the view class)
+ * - Use DKStyleClassNone for no rendering - ability to set all properties of the view/layer manually
+ */
+@property (nonatomic, strong) NSString* styleKey;
 
 @end

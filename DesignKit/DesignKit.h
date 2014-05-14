@@ -1,21 +1,29 @@
 //
-//  DesignKit.h
-//  DesignKit
-//
-//  Created by Dal Rupnik on 13/03/14.
-//  Copyright (c) 2014 arvystate.net. All rights reserved.
+// Created by Dal Rupnik on 12/05/14.
+// Copyright (c) 2014 arvystate.net. All rights reserved.
 //
 
-#ifndef DesignKit
-#define DesignKit
+#import "DKDefines.h"
+#import "DKProperties.h"
+#import "UIView+DesignKit.h"
 
-/*!
- * Import NUI settings, as main DesignKit module integrates with NUI directly
- */
-#import <NUI/NUISettings.h>
+#import "DKStyle.h"
+#import "DKStylesheet.h"
+
+#import "DKSingleton.h"
 
 #import "DKBlendingOptions.h"
 #import "DKSmartFilters.h"
-#import "UIView+DesignKit.h"
 
-#endif
+
+@interface DesignKit : DKSingleton
+
+@property (nonatomic, strong) DKStylesheet* stylesheet;
+
++ (void)setup;
+
++ (void)setupWithStylesheetPath:(NSString *)path;
+
++ (void)setupWithStylesheet:(DKStylesheet *)stylesheet;
+
+@end

@@ -15,7 +15,6 @@
 		386D486718EC8B6E00FD7F68 /* DKSmartFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 386D486618EC8B6E00FD7F68 /* DKSmartFilters.m */; };
 		386D486A18EC8B7A00FD7F68 /* DKBlendingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 386D486918EC8B7A00FD7F68 /* DKBlendingOptions.m */; };
 		386D486D18EC93E600FD7F68 /* DKColorOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 386D486C18EC93E600FD7F68 /* DKColorOverlay.m */; };
-		387D3A61190AEBA70022297C /* DKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 387D3A60190AEBA70022297C /* DKView.m */; };
 		387E9FCB18D0FB6F00EAC29B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E9FCA18D0FB6F00EAC29B /* Foundation.framework */; };
 		387E9FCD18D0FB6F00EAC29B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E9FCC18D0FB6F00EAC29B /* CoreGraphics.framework */; };
 		387E9FCF18D0FB6F00EAC29B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E9FCE18D0FB6F00EAC29B /* UIKit.framework */; };
@@ -30,9 +29,20 @@
 		387E9FEC18D0FB6F00EAC29B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E9FCE18D0FB6F00EAC29B /* UIKit.framework */; };
 		387E9FF418D0FB6F00EAC29B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 387E9FF218D0FB6F00EAC29B /* InfoPlist.strings */; };
 		387E9FF618D0FB6F00EAC29B /* SampleEffectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E9FF518D0FB6F00EAC29B /* SampleEffectsTests.m */; };
+		67E6427FE6AB9CB0EBCC012B /* UIView+DKWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E640775F921B92CEC96B86 /* UIView+DKWrapper.m */; };
+		67E642AEA035D563F319AAB0 /* UIButton+DKShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E640498745B08BBE578A33 /* UIButton+DKShape.m */; };
+		67E6434694D528EAC2615999 /* UIView+DKShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E643B24F14D9C90827955B /* UIView+DKShape.m */; };
 		67E643FC642432DE8D9F25C2 /* DKSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E6498B960F11C00CDD469A /* DKSingleton.m */; };
+		67E6469FCB8A5C272F40FEFE /* UIStoryboard+DesignKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E64354F493A88DD073D8F8 /* UIStoryboard+DesignKit.m */; };
 		67E646BBF4439D29E4E5336F /* Style.nss in Resources */ = {isa = PBXBuildFile; fileRef = 67E648E6DC7A5B02EF0444B1 /* Style.nss */; };
-		67E64917A53474F06A74C6FF /* DesignKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E64921FB681698D202C5D7 /* DesignKit.m */; };
+		67E6480353614E96045CDAE9 /* NUISettings+DesignKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E64D0E59FE14B70012CE37 /* NUISettings+DesignKit.m */; };
+		67E6487CD00783C5937327E4 /* DKStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E6438F878C26FEBAECA253 /* DKStylesheet.m */; };
+		67E64C585B8D8388D4A2D67E /* DKDrawingSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E6445CE09ECD4EC7C02076 /* DKDrawingSource.m */; };
+		67E64C661AA349E58B6E01FE /* DKGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E641487C425D332569451D /* DKGrid.m */; };
+		67E64CCB99A5FB06981EE8C6 /* DKStackPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E640939CFEDDBD5548B3CA /* DKStackPanel.m */; };
+		67E64CF065338E0C1C6E7CCA /* DKStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E646AE1B445BE434B33EBF /* DKStyle.m */; };
+		67E64E406A9E44C607C0C4E3 /* UIView+DKLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E641F32B8C14BAEE16F6E3 /* UIView+DKLayout.m */; };
+		67E64E6298E61E01AFE8DFD2 /* DesignKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E64371AEDF9767849057B7 /* DesignKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +56,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3821196218E8BCE800B16CA0 /* DesignKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignKit.h; sourceTree = "<group>"; };
 		386D485618EC8A0F00FD7F68 /* UIColor+Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Company.h"; sourceTree = "<group>"; };
 		386D485718EC8A0F00FD7F68 /* UIColor+Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Company.m"; sourceTree = "<group>"; };
 		386D485918EC8A0F00FD7F68 /* UIColor+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Create.h"; sourceTree = "<group>"; };
@@ -61,8 +70,6 @@
 		386D486918EC8B7A00FD7F68 /* DKBlendingOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBlendingOptions.m; sourceTree = "<group>"; };
 		386D486B18EC93E600FD7F68 /* DKColorOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKColorOverlay.h; sourceTree = "<group>"; };
 		386D486C18EC93E600FD7F68 /* DKColorOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKColorOverlay.m; sourceTree = "<group>"; };
-		387D3A5F190AEBA70022297C /* DKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKView.h; sourceTree = "<group>"; };
-		387D3A60190AEBA70022297C /* DKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKView.m; sourceTree = "<group>"; };
 		387E9FC718D0FB6F00EAC29B /* SampleEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387E9FCA18D0FB6F00EAC29B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		387E9FCC18D0FB6F00EAC29B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,11 +89,38 @@
 		387E9FF118D0FB6F00EAC29B /* SampleEffectsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleEffectsTests-Info.plist"; sourceTree = "<group>"; };
 		387E9FF318D0FB6F00EAC29B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		387E9FF518D0FB6F00EAC29B /* SampleEffectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleEffectsTests.m; sourceTree = "<group>"; };
+		67E64000C7CE4B99476BD18E /* DKDrawingDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDrawingDefines.h; sourceTree = "<group>"; };
+		67E640498745B08BBE578A33 /* UIButton+DKShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DKShape.m"; sourceTree = "<group>"; };
+		67E640775F921B92CEC96B86 /* UIView+DKWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DKWrapper.m"; sourceTree = "<group>"; };
+		67E640939CFEDDBD5548B3CA /* DKStackPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKStackPanel.m; sourceTree = "<group>"; };
+		67E640A3610FF9AB88338119 /* UIButton+DKShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DKShape.h"; sourceTree = "<group>"; };
+		67E640D7C5FC1BC6193E5012 /* DKStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKStylesheet.h; sourceTree = "<group>"; };
+		67E6410176E58829107D12A6 /* DKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDefines.h; sourceTree = "<group>"; };
+		67E641487C425D332569451D /* DKGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKGrid.m; sourceTree = "<group>"; };
+		67E641F32B8C14BAEE16F6E3 /* UIView+DKLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DKLayout.m"; sourceTree = "<group>"; };
+		67E64354F493A88DD073D8F8 /* UIStoryboard+DesignKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+DesignKit.m"; sourceTree = "<group>"; };
+		67E64371AEDF9767849057B7 /* DesignKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignKit.m; sourceTree = "<group>"; };
+		67E6438F878C26FEBAECA253 /* DKStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKStylesheet.m; sourceTree = "<group>"; };
+		67E643B24F14D9C90827955B /* UIView+DKShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DKShape.m"; sourceTree = "<group>"; };
+		67E6445CE09ECD4EC7C02076 /* DKDrawingSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDrawingSource.m; sourceTree = "<group>"; };
+		67E64498D89243434C64FA01 /* DKProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProperties.h; sourceTree = "<group>"; };
+		67E644D8889AB45CECB18BA8 /* DKGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKGrid.h; sourceTree = "<group>"; };
+		67E64656B3750DADE3A07216 /* NUISettings+DesignKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NUISettings+DesignKit.h"; sourceTree = "<group>"; };
+		67E646AE1B445BE434B33EBF /* DKStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKStyle.m; sourceTree = "<group>"; };
+		67E647EF96C85005FF5A3930 /* UIView+DKLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DKLayout.h"; sourceTree = "<group>"; };
+		67E6484E13717B60C76E87CD /* UIView+DKWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DKWrapper.h"; sourceTree = "<group>"; };
 		67E648E6DC7A5B02EF0444B1 /* Style.nss */ = {isa = PBXFileReference; lastKnownFileType = file.nss; path = Style.nss; sourceTree = "<group>"; };
-		67E64921FB681698D202C5D7 /* DesignKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignKit.m; sourceTree = "<group>"; };
 		67E6498B960F11C00CDD469A /* DKSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSingleton.m; sourceTree = "<group>"; };
+		67E649B299D60162FEE30DEC /* DKStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKStyle.h; sourceTree = "<group>"; };
+		67E64B96197932769A854618 /* DesignKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignKit.h; sourceTree = "<group>"; };
+		67E64D0E59FE14B70012CE37 /* NUISettings+DesignKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NUISettings+DesignKit.m"; sourceTree = "<group>"; };
+		67E64D2C419E0C89DD19B286 /* DKDrawingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDrawingConstants.h; sourceTree = "<group>"; };
 		67E64D3B8B1D16F7D4B86321 /* DKSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSingleton.h; sourceTree = "<group>"; };
-		67E64EB194854C512A6C700D /* DesignKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignKit.h; sourceTree = "<group>"; };
+		67E64D3C5C1C70ED03FBEC5A /* DKDrawingSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDrawingSource.h; sourceTree = "<group>"; };
+		67E64D8C4F018DCF14981BBD /* UIView+DKShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DKShape.h"; sourceTree = "<group>"; };
+		67E64DF0393843346CD10C6A /* DKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKConstants.h; sourceTree = "<group>"; };
+		67E64E205D87CDE09E95CC0B /* UIStoryboard+DesignKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+DesignKit.h"; sourceTree = "<group>"; };
+		67E64F21B9B25367877AA40C /* DKStackPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKStackPanel.h; sourceTree = "<group>"; };
 		7608FB4AEE3D475DAB1983B8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB960AEC1F574B60B4D4BC55 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,15 +207,6 @@
 			path = "Smart Filters";
 			sourceTree = "<group>";
 		};
-		387D3A5E190AEB8C0022297C /* View */ = {
-			isa = PBXGroup;
-			children = (
-				387D3A5F190AEBA70022297C /* DKView.h */,
-				387D3A60190AEBA70022297C /* DKView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		387E9FBE18D0FB6F00EAC29B = {
 			isa = PBXGroup;
 			children = (
@@ -266,8 +291,12 @@
 				386D485418EC8A0F00FD7F68 /* Colors */,
 				38836AC518D1E6890067565D /* Core */,
 				386D486418EC8A8600FD7F68 /* Smart Filters */,
-				387D3A5E190AEB8C0022297C /* View */,
-				3821196218E8BCE800B16CA0 /* DesignKit.h */,
+				67E64EBC4E5783F126C749FF /* Drawing */,
+				67E642681B97320DD6EC1CF2 /* Style */,
+				67E64371AEDF9767849057B7 /* DesignKit.m */,
+				67E64B96197932769A854618 /* DesignKit.h */,
+				67E64D45663815398D95E750 /* Layout */,
+				67E64BBEEAA0A1D976983046 /* Storyboard */,
 			);
 			path = DesignKit;
 			sourceTree = "<group>";
@@ -277,12 +306,65 @@
 			children = (
 				386D486118EC8A3B00FD7F68 /* UIView+DesignKit.h */,
 				386D486218EC8A3B00FD7F68 /* UIView+DesignKit.m */,
-				67E64921FB681698D202C5D7 /* DesignKit.m */,
-				67E64EB194854C512A6C700D /* DesignKit.h */,
 				67E6498B960F11C00CDD469A /* DKSingleton.m */,
 				67E64D3B8B1D16F7D4B86321 /* DKSingleton.h */,
+				67E6410176E58829107D12A6 /* DKDefines.h */,
+				67E64498D89243434C64FA01 /* DKProperties.h */,
+				67E64DF0393843346CD10C6A /* DKConstants.h */,
+				67E64D0E59FE14B70012CE37 /* NUISettings+DesignKit.m */,
+				67E64656B3750DADE3A07216 /* NUISettings+DesignKit.h */,
+				67E640775F921B92CEC96B86 /* UIView+DKWrapper.m */,
+				67E6484E13717B60C76E87CD /* UIView+DKWrapper.h */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		67E642681B97320DD6EC1CF2 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				67E646AE1B445BE434B33EBF /* DKStyle.m */,
+				67E649B299D60162FEE30DEC /* DKStyle.h */,
+				67E6438F878C26FEBAECA253 /* DKStylesheet.m */,
+				67E640D7C5FC1BC6193E5012 /* DKStylesheet.h */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		67E64BBEEAA0A1D976983046 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				67E64354F493A88DD073D8F8 /* UIStoryboard+DesignKit.m */,
+				67E64E205D87CDE09E95CC0B /* UIStoryboard+DesignKit.h */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		67E64D45663815398D95E750 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				67E641487C425D332569451D /* DKGrid.m */,
+				67E644D8889AB45CECB18BA8 /* DKGrid.h */,
+				67E640939CFEDDBD5548B3CA /* DKStackPanel.m */,
+				67E64F21B9B25367877AA40C /* DKStackPanel.h */,
+				67E641F32B8C14BAEE16F6E3 /* UIView+DKLayout.m */,
+				67E647EF96C85005FF5A3930 /* UIView+DKLayout.h */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		67E64EBC4E5783F126C749FF /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				67E6445CE09ECD4EC7C02076 /* DKDrawingSource.m */,
+				67E64D3C5C1C70ED03FBEC5A /* DKDrawingSource.h */,
+				67E643B24F14D9C90827955B /* UIView+DKShape.m */,
+				67E64D8C4F018DCF14981BBD /* UIView+DKShape.h */,
+				67E640498745B08BBE578A33 /* UIButton+DKShape.m */,
+				67E640A3610FF9AB88338119 /* UIButton+DKShape.h */,
+				67E64000C7CE4B99476BD18E /* DKDrawingDefines.h */,
+				67E64D2C419E0C89DD19B286 /* DKDrawingConstants.h */,
+			);
+			path = Drawing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,11 +510,21 @@
 				386D486018EC8A0F00FD7F68 /* UIColor+Flat.m in Sources */,
 				387E9FD718D0FB6F00EAC29B /* main.m in Sources */,
 				386D486318EC8A3B00FD7F68 /* UIView+DesignKit.m in Sources */,
-				387D3A61190AEBA70022297C /* DKView.m in Sources */,
 				386D485F18EC8A0F00FD7F68 /* UIColor+Create.m in Sources */,
 				386D486D18EC93E600FD7F68 /* DKColorOverlay.m in Sources */,
-				67E64917A53474F06A74C6FF /* DesignKit.m in Sources */,
 				67E643FC642432DE8D9F25C2 /* DKSingleton.m in Sources */,
+				67E64C585B8D8388D4A2D67E /* DKDrawingSource.m in Sources */,
+				67E64CF065338E0C1C6E7CCA /* DKStyle.m in Sources */,
+				67E64E6298E61E01AFE8DFD2 /* DesignKit.m in Sources */,
+				67E6487CD00783C5937327E4 /* DKStylesheet.m in Sources */,
+				67E6434694D528EAC2615999 /* UIView+DKShape.m in Sources */,
+				67E642AEA035D563F319AAB0 /* UIButton+DKShape.m in Sources */,
+				67E64C661AA349E58B6E01FE /* DKGrid.m in Sources */,
+				67E64CCB99A5FB06981EE8C6 /* DKStackPanel.m in Sources */,
+				67E64E406A9E44C607C0C4E3 /* UIView+DKLayout.m in Sources */,
+				67E6469FCB8A5C272F40FEFE /* UIStoryboard+DesignKit.m in Sources */,
+				67E6480353614E96045CDAE9 /* NUISettings+DesignKit.m in Sources */,
+				67E6427FE6AB9CB0EBCC012B /* UIView+DKWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
