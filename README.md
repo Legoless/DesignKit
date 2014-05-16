@@ -20,7 +20,7 @@ The mission of this innovative iOS framework is to enhance and speed up the crea
 
 ## Development
 
-We, iOS Developers, are very lucky. The community is strong and it is becoming larger every day. That is why DesignKit is developing rapidly and the main API is also changing rapidly. We do not recommend you use it in production. API will be finalised by version 1.0.
+The iOS community is strong and it is becoming larger every day. That is why DesignKit is developing rapidly and the main API is also changing rapidly. We do not recommend you use it in production. API will be finalised by version 1.0.
 
 ## History
 
@@ -33,7 +33,7 @@ DesignKit is tightly coupled together with Photoshop CC extension to be able to 
 
 DesignKit also connects multiple iOS libraries together to create a larger framework that allows developers to create fast and beautiful designs.
 
-Project is currently WIP, please be patient as it gets developed. Integration with Sketch 3 is also planned soon.
+**Project is currently WIP, please be patient as it gets developed.** Integration with Sketch 3 is also planned soon.
 
 
 DesignKit offers many features that aid in transferring Photoshop designs into a working application. Some of them are described below in detail.
