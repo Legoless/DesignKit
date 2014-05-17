@@ -20,7 +20,7 @@ The mission of this innovative iOS framework is to enhance and speed up the crea
 
 ## Development
 
-The iOS community is strong and it is becoming larger every day. That is why DesignKit is developing rapidly and the main API is also changing rapidly. We do not recommend you use it in production. API will be finalised by version 1.0.
+The iOS community is strong and it is becoming larger every day. That is why DesignKit is developing rapidly and the main API is also changing rapidly. We do not recommend you use it in production. API will be finalised by version 1.0 and will not change until version 2.0.
 
 ## History
 
