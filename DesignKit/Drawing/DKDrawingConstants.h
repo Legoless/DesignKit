@@ -1,3 +1,6 @@
+#ifndef __DKDRAWINGCONSTANTS_H_
+#define __DKDRAWINGCONSTANTS_H_
+
 /*!
  * Constants
  */
@@ -5,8 +8,10 @@
 /*!
  * Parameters provided to DKDrawingBlock
  */
-extern NSString* const DKDrawingParameterParent             = @"drawingParent";
-extern NSString* const DKDrawingParameterOrientation        = @"drawingOrientation";
+extern NSString* const DKDrawingParameterParent;
+extern NSString* const DKDrawingParameterOrientation;
 
-extern NSString* const DKDrawingParameterColor              = @"drawingColor";
-extern NSString* const DKDrawingParameterSecondaryColor     = @"drawingSecondaryColor";
+extern NSString* const DKDrawingParameterColor;
+extern NSString* const DKDrawingParameterSecondaryColor;
+
+#endif

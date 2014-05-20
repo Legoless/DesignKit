@@ -1,0 +1,40 @@
+PODS:
+  - CocoaLumberjack (1.8.1):
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (1.8.1)
+  - CocoaLumberjack/Extensions (1.8.1):
+    - CocoaLumberjack/Core
+  - DesignKit (0.1.0)
+  - Haystack (0.4.6)
+  - NUI (0.5.4):
+    - NUIParse
+  - NUIParse (1.2)
+  - pop (1.0.5)
+  - SVGKit (1.x):
+    - CocoaLumberjack
+
+DEPENDENCIES:
+  - DesignKit (from `../DesignKit.podspec`)
+  - Haystack (from `https://github.com/legoless/Haystack.git`)
+  - NUI
+  - pop
+  - SVGKit (from `https://github.com/SVGKit/SVGKit.git`)
+
+EXTERNAL SOURCES:
+  DesignKit:
+    :path: ../DesignKit.podspec
+  Haystack:
+    :git: https://github.com/legoless/Haystack.git
+  SVGKit:
+    :git: https://github.com/SVGKit/SVGKit.git
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 020378ec400d658923bf5887178394f65f052c90
+  DesignKit: 22c3a6bbec8537f5dc047195ff4d53f6cd90d264
+  Haystack: 2a33f72e1d7edb83341d3cea5c3975b8b73e50b3
+  NUI: 4859620744f2645e596d0a3b949dd66868d1fc52
+  NUIParse: 14e226aa09f10f109dbd6863759e07f80276f397
+  pop: b4720ddec3fb20abeb378c3feaadd18b27988bc1
+  SVGKit: bb7259d164de219baf2bd5c987f05f6ba036ff86
+
+COCOAPODS: 0.32.1

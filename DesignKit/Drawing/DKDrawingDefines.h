@@ -1,3 +1,6 @@
+#ifndef __DKDRAWINGDEFINES_H_
+#define __DKDRAWINGDEFINES_H_
+
 /*!
  * A drawing block should be provided to the button to draw specific state.
  * All drawing is done on UIKit's graphic context.
@@ -13,3 +16,5 @@ typedef NSString DKDrawingSourceTag;
  * A specific alias to NSString.
  */
 typedef NSString DKDrawingVectorShape;
+
+#endif

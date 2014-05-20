@@ -16,4 +16,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'DesignKit/**/*.{h,m}'
   s.requires_arc = true
+  s.header_mappings_dir = 'DesignKit'
 end
