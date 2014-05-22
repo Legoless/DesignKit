@@ -1,0 +1,4 @@
+language: objective-c
+xcode_workspace: Demo/Demo.xcworkspace
+xcode_scheme: Demo
+xcode_sdk: iphonesimulator7.1
