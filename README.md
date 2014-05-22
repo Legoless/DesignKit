@@ -6,6 +6,8 @@ The mission of this innovative iOS framework is to enhance and speed up the crea
   
   *This is achieved by abstracting the style for specific into special style classes, which can be created in code or by specific style files added to your application's bundle. The NUI framework handles the case of style files.*
 
+  Read more about **Styling**.
+
 - **Integrates with multiple well-known design oriented frameworks:**
   
   *Popular frameworks such as Masonry, SVGKit and POP are integrated out of the box, to keep the design as consistent and smooth as possible.*
