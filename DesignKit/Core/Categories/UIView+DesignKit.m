@@ -7,14 +7,22 @@
 
 #import "DKProperties.h"
 
+#import "UIView+NUI.h"
 #import "UIView+DesignKit.h"
 #import "UIView+DKStyle.h"
 #import "UIView+DKShape.h"
+#import "DKView.h"
 
 @implementation UIView (DesignKit)
 
 - (void)dk_apply
 {
+    if ([self isMemberOfClass:[DKView class]] && self.nuiClass == nil)
+    {
+        self.nuiClass = @"View";
+        [self applyNUI];
+    }
+
     //
     // Apparently this is called before it is loaded?
     //

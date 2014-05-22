@@ -7,6 +7,8 @@
 #import "NUISettings+DesignKit.h"
 
 #import "DesignKit.h"
+#import "DKView.h"
+#import "DKButton.h"
 
 @interface DesignKit ()
 
@@ -36,8 +38,13 @@
     //
     // Swizzle methods of views
     //
-    [NSObject swizzleInstanceMethod:@selector(didMoveToWindow) withMethod:@selector(dk_didMoveToWindow) inClass:[UIView class]];
+
+    [NSObject swizzleInstanceMethod:@selector(didMoveToWindow) withMethod:@selector(dk_didMoveToWindow) inClass:[DKButton class]];
     [NSObject swizzleInstanceMethod:@selector(didMoveToWindow) withMethod:@selector(dk_didMoveToWindow) inClass:[UIButton class]];
+
+    [NSObject swizzleInstanceMethod:@selector(didMoveToWindow) withMethod:@selector(dk_didMoveToWindow) inClass:[DKView class]];
+    [NSObject swizzleInstanceMethod:@selector(didMoveToWindow) withMethod:@selector(dk_didMoveToWindow) inClass:[UIView class]];
+
 }
 
 + (void)setup

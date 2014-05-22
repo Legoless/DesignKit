@@ -56,6 +56,8 @@
     }
     else if ([styleKey isEqualToString:DKStyleClassDefault])
     {
+        self.nuiClass = [[NSStringFromClass([self class]) stringByReplacingOccurrencesOfString:@"UI" withString:@""] stringByReplacingOccurrencesOfString:@"DK" withString:@""];
+
         objc_setAssociatedObject(self, DKAssociatedStyleKey, nil, OBJC_ASSOCIATION_RETAIN);
     }
     else
@@ -64,6 +66,9 @@
 
         objc_setAssociatedObject(self, DKAssociatedStyleKey, styleKey, OBJC_ASSOCIATION_RETAIN);
     }
+
+    [self applyNUI];
+    [self dk_apply];
 
     //
     // Lets redraw the view

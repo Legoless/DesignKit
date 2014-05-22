@@ -5,6 +5,8 @@
 
 #import <SVGKit/SVGKit.h>
 
+#import "UIButton+NUI.h"
+
 #import "UIView+DKStyle.h"
 
 #import "UIView+DKShape.h"
@@ -13,11 +15,21 @@
 #import "DKProperties.h"
 #import "DKDrawingDefines.h"
 #import "DKDrawingSource.h"
+#import "DKButton.h"
 
 @implementation UIButton (DesignKit)
 
 - (void)dk_apply
 {
+    //
+    // This handles to have DKButton's subclass same default class as it's superclass
+    //
+    if ([self isMemberOfClass:[DKButton class]] && self.nuiClass == nil)
+    {
+        self.nuiClass = @"Button";
+        [self applyNUI];
+    }
+
     if ([self respondsToSelector:@selector(viewStyle)])
     {
         //

@@ -9,6 +9,8 @@
 
 #import "UIView+DKShape.h"
 
+#import "DKView.h"
+
 @implementation UIView (DKShape)
 
 + (void)load
@@ -17,7 +19,7 @@
     // Swizzle the drawRect method to our own
     //
 
-    [self swizzleInstanceMethod:@selector(drawRect:) withMethod:@selector(dk_drawRect:)];
+    [self swizzleInstanceMethod:@selector(drawRect:) withMethod:@selector(dk_drawRect:) inClass:[DKView class]];
     //[self swizzleInstanceMethod:@selector(drawRect:) withMethod:@selector(dk_drawRect:) inClass:[UIButton class]];
 }
 
@@ -48,8 +50,10 @@
     else
     {
         // If no drawing block, go default.
-        [self dk_drawRect:rect];
+
     }
+
+    [self dk_drawRect:rect];
 
 }
 
@@ -61,6 +65,8 @@
 - (void)setDrawingBlock:(DKDrawingBlock)drawingBlock
 {
     [[DKDrawingManager design] setDrawingBlock:drawingBlock forObject:self];
+
+    [self setNeedsDisplay];
 }
 
 

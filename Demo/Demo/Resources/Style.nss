@@ -178,5 +178,5 @@ View
 DesignKitButton
 {
     background-color: clear;
-    font-color: #666666;
+    font-color: #0000FF;
 }

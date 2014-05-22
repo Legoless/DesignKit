@@ -7,6 +7,7 @@
 #import "UIButton+DKShape.h"
 
 #import "DKDrawingManager.h"
+#import "DKButton.h"
 
 @implementation UIButton (DKShape)
 
@@ -16,7 +17,7 @@
     // Swizzle the drawRect method to our own
     //
 
-    [self swizzleInstanceMethod:@selector(drawRect:) withMethod:@selector(dk_drawRect:)];
+    [self swizzleInstanceMethod:@selector(drawRect:) withMethod:@selector(dk_drawRect:) inClass:[DKButton class]];
 }
 
 - (void)setDrawingBlock:(DKDrawingBlock)block forState:(UIControlState)state
@@ -85,8 +86,6 @@
 
     if (dkDrawingBlock)
     {
-        NSLog(@"CALLING DRAWING BLOCK!! %@", self);
-
         //
         // Add parameters
         //
@@ -101,13 +100,9 @@
 
         dkDrawingBlock(rect, parameters);
     }
-    else
-    {
-        NSLog(@"DEFAULT DRAW: %@", self);
 
-        // If no drawing block, go default.
-        [self dk_drawRect:rect];
-    }
+    [self dk_drawRect:rect];
+
 }
 
 @end
