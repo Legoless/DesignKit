@@ -1,5 +1,7 @@
 # DesignKit
 
+[![Build Status](https://travis-ci.org/Legoless/DesignKit.svg)](https://travis-ci.org/Legoless/DesignKit)
+
 The mission of this innovative iOS framework is to enhance and speed up the creation of beautiful iOS applications, while keeping the learning curve as easy as possible. This is done by following the next milestones:
 
 - **Styling code is completely decoupled from controller objects:**
