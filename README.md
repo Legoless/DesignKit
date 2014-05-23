@@ -1,6 +1,6 @@
 # DesignKit
 
-[![Build Status](https://travis-ci.org/Legoless/DesignKit.svg)](https://travis-ci.org/Legoless/DesignKit)
+[![Build Status](https://travis-ci.org/Legoless/DesignKit.svg)](https://travis-ci.org/Legoless/DesignKit) ![Version Badge](https://cocoapod-badges.herokuapp.com/v/Haystack/badge.png) ![License Badge](https://go-shields.herokuapp.com/license-MIT-blue.png)
 
 The mission of this innovative iOS framework is to enhance and speed up the creation of beautiful iOS applications, while keeping the learning curve as easy as possible. This is done by following the next milestones:
 
@@ -117,4 +117,4 @@ Dal Rupnik
 License
 ======
 
-Completely free. See [LICENSE](https://github.com/Legoless/DesignKit/blob/master/LICENSE) file for more information.
+MIT License. See [LICENSE](https://github.com/Legoless/DesignKit/blob/master/LICENSE) file for more information.
