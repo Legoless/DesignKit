@@ -1,5 +1,5 @@
 <p align="center" >
-  <img src="https://raw.github.com/legoless/DesignKit/Assets/designkit-logo.png" alt="DesignKit" title="DesignKit">
+  <img src="https://raw.githubusercontent.com/Legoless/DesignKit/master/Assets/designkit-logo.png" alt="DesignKit" title="DesignKit">
 </p>
 
 [![Build Status](https://travis-ci.org/Legoless/DesignKit.svg)](https://travis-ci.org/Legoless/DesignKit) [![Version Badge](https://cocoapod-badges.herokuapp.com/v/Haystack/badge.png)](http://www.google.com)  [![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/NSStringMask/badge.svg)](https://cocoadocs.org/docsets/NSStringMask)  [![License Badge](https://go-shields.herokuapp.com/license-MIT-blue.png)](http://www.google.com) 
