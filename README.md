@@ -60,6 +60,10 @@ Following the milestones above, DesignKit is organized into multiple modules, wh
   
   Resources include icons, colors, gradients - all in vector format, ready to be used in combination with Drawing subspec.
 
+## Usage
+
+Our [**Usage**](https://github.com/Legoless/DesignKit/blob/master/Documentation/Examples/Usage.md) section has many samples on how to use DesignKit. There are also many other sample projects/libraries that use DesignKit:
+- [DRCameraView)(https://github.com/Legoless/DRCameraView)
 
 ## Development
 
