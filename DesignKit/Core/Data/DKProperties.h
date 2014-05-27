@@ -24,6 +24,8 @@ extern DKProperty* const DKPropertyFontName;
 extern DKProperty* const DKPropertyFontSize;
 
 extern DKProperty* const DKPropertyHeight;
+extern DKProperty* const DKPropertyImage;
+extern DKProperty* const DKPropertyImageInsets;
 
 extern DKProperty* const DKPropertyPadding;
 

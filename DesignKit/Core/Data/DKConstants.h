@@ -7,6 +7,7 @@
 
 extern NSString* const DKStyleClassDefault;
 extern NSString* const DKStyleClassNone;
+extern NSString* const DKStyleCustom;
 
 extern NSString* const DKStyleClassExceptionInfo;
 

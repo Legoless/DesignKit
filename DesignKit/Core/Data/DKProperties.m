@@ -21,6 +21,8 @@ DKProperty* const DKPropertyFontName                         = @"font-name";
 DKProperty* const DKPropertyFontSize                         = @"font-size";
 
 DKProperty* const DKPropertyHeight                           = @"height";
+DKProperty* const DKPropertyImage                            = @"image";
+DKProperty* const DKPropertyImageInsets                      = @"image-insets";
 
 DKProperty* const DKPropertyPadding                          = @"padding";
 

@@ -74,12 +74,12 @@
     return self.propertiesCache[key];
 }
 
-- (void)setPropertyForKey:(NSString *)key withProperty:(id)object
+- (void)setProperty:(id)object forKey:(NSString *)key
 {
-    [self setPropertyForKey:key withProperty:object forState:UIControlStateNormal];
+    [self setProperty:object forKey:key forState:UIControlStateNormal];
 }
 
-- (void)setPropertyForKey:(NSString *)key withProperty:(id)object forState:(UIControlState)state
+- (void)setProperty:(id)object forKey:(NSString *)key forState:(UIControlState)state
 {
     key = [self keyStringWithKey:key forState:state];
 
@@ -95,7 +95,7 @@
 
 - (void)setObject:(id)object forKeyedSubscript:(id <NSCopying>)aKey
 {
-    [self setPropertyForKey:aKey withProperty:object];
+    [self setProperty:object forKey:aKey];
 }
 
 #pragma mark Private methods

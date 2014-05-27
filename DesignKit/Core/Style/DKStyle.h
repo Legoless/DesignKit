@@ -21,6 +21,13 @@
 @property (nonatomic, readonly) NSDictionary *propertiesPropertyList;
 
 /*!
+ * Access to reference view of the specific style
+ */
+@property (nonatomic, weak) UIView* referenceView;
+
+- (id)initWithClass:(Class)elementClass;
+
+/*!
  * Designated initializer initializes new style with provided property list in NUI format
  */
 - (id)initWithStyleKey:(NSString *)styleKey properties:(NSDictionary *)dictionary;
@@ -44,9 +51,13 @@
 //
 // TODO: Documentation
 //
-- (void)setPropertyForKey:(NSString *)key withProperty:(id)object;
+- (void)setProperty:(id)object forKey:(NSString *)key;
 
-- (void)setPropertyForKey:(NSString *)key withProperty:(id)object forState:(UIControlState)state;
+- (void)setProperty:(id)object forKey:(NSString *)key forState:(UIControlState)state;
+
+- (void)setProperties:(NSDictionary *)properties;
+
+- (void)setProperties:(NSDictionary *)properties forState:(UIControlState)state;
 
 
 /*!
@@ -55,5 +66,10 @@
 - (id)objectForKeyedSubscript:(id)key;
 
 - (void)setObject:(id)object forKeyedSubscript:(id<NSCopying>)aKey;
+
+
+- (void)beginUpdates;
+
+- (void)endUpdates;
 
 @end

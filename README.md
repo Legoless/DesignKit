@@ -8,9 +8,9 @@ The mission of this innovative iOS framework is to enhance and speed up the crea
 
 - **Styling code is completely decoupled from controller objects:**
   
-  *This is achieved by abstracting the style for specific into special style classes, which can be created in code or by specific style files added to your application's bundle. The NUI framework handles the case of style files.*
+  *This is achieved by abstracting visual style of UI elements into special style classes, which are not connected to view controllers. The NUI framework handles the case of style files.*
 
-  Read more about **Styling**.
+  Read more about **Styling** in DesignKit.
 
 - **Integrates with multiple well-known design oriented frameworks:**
   
@@ -19,91 +19,71 @@ The mission of this innovative iOS framework is to enhance and speed up the crea
 - **Attempts to bridge the gap between design tools and iOS SDK:**
   
   *DesignKit provides plugins and extensions for popular designing tools such as Sketch 3 and Adobe Photoshop CC. Plugins will generate native DesignKit code to be used in existing projects.*
+  
+    Read more about **plugins** in DesignKit.
 
 - **Adds multiple design sources that can used in many projects out of the box:**
   
   *There are multiple resources available in DesignKit that help iOS developers create common interface elements faster. Those include most common used colors, such as Facebook color, common usage and social icons.*
+  
+    Read more about **resources** in DesignKit. 
+  
+  - **Reduces application's memory fingerprint by utilizing vector graphics:**
+    
+    *Vector graphics require very small memory fingerprint, while keeping animations and interaction fast and fluid.*
+    
+    Read more about **drawing** in DesignKit.
+    
+## The Ideas
+
+Ideas for this project come out of multiple frameworks in many different technologies. Here are a few examples:
+- **Styling** is decoupled from business logic on many platforms for example in World Wide Web and Windows Presentation Foundation, including Windows Phone.
+- **Vector graphics** is used on map platforms, because it is small to transfer over network connection. It is also very easy to modify. Simply change the color in code (yes, I know about tintColor property).
+- **Resources** are shared throughout multiple projects, for example: Share to Facebook usually contains Facebook icon with Facebook trademark color. Why should we always search for it, through other projects
+- **Layout** is sometimes a pain. Even with second iteration of auto-layout there is still a lot of layouts that are a pain to create. Inspired by Windows Presentation Foundation we use special layout managers that make this easy.
+
+## Code Structure
+
+Following the milestones above, DesignKit is organized into multiple modules, which can be installed via CocoaPod's Subspecs.
+- DesignKit
+  Contains all subspecs, except for resources and main UI styling functionality.
+- DesignKit/Core
+  Contains basic design oriented functionalities and helper functions used in almost every project.
+- DesignKit/Drawing
+  Classes will enable you to draw vector shapes to existing UI elements, such as UIButton or UIView.
+- DesignKit/Layout
+  Contains improved layout managers for all children with  
+- DesignKit/Storyboard
+  
+  Storyboard utilities, helpers and that help you utilize Storyboard's full power. Divide view controllers into logic groups, or just use it to design your custom views.
+- DesignKit/Resource
+  
+  Resources include icons, colors, gradients - all in vector format, ready to be used in combination with Drawing subspec.
+
 
 ## Development
 
-The iOS community is strong and it is becoming larger every day. That is why DesignKit is developing rapidly and the main API is also changing rapidly. We do not recommend you use it in production. API will be finalised by version 1.0 and will not change until version 2.0.
-
-## History
-
-
-## Features
-
-Innovative iOS framework that attempts to bridge the gap between designs created in Adobe Photoshop Tool. It's main mission is to enable developers to quickly create a living design out from PSD's provided by a designer. DesignKit extends NUI capabilities to shapes and Objective-C code.
-
-DesignKit is tightly coupled together with Photoshop CC extension to be able to export code directly from Photoshop. It even allows you to generate View Controller code.
-
-DesignKit also connects multiple iOS libraries together to create a larger framework that allows developers to create fast and beautiful designs.
-
-**Project is currently WIP, please be patient as it gets developed.** Integration with Sketch 3 is also planned soon.
-
-
-DesignKit offers many features that aid in transferring Photoshop designs into a working application. Some of them are described below in detail.
-
-There are also options to open .PSD file created in Photoshop and use shape and bitmap assets directly in code. Still work in progress.
-
-DesignKit also includes new layout managers:
-- Grid
-- StackPanel
-- FlowPanel
-- DockPanel
-
-## Support
-
-DesignKit supports many of the popular design and UX plugins out of the box.
-- POP Animation Framework
-- NUI
-- Masonry
-- SVGKit
-
-### Colors
-
-Working with colors has been made easy with DesignKit. Just use UIColorFromKey macro and it will automatically figure out what color you mean, whether you asked for a color by name, hex-decimal value or RGB values. We have added hundreds of prebuilt colors which can be used in the application. They include company slogan colors and flat color library.
-
-### Filters
-
-DesignKit also includes Photoshop filters which can be done on all UIImage layers. Otherwise you must call rasterize method on UIView to convert it into an image.
-
-- Blur
-- Edge Detection
-
-### Effects
-
-The following effects from Photoshop's blending options are currently implemented / or in progress.
-
-- Stroke (outside, inside)
-- Color overlay
-- Gradient overlay
-- Drop shadow
-- Inner glow
-- Outer glow
-
-### Vectors
-
-DesignKit provides many vector icons out of the box, used for social icons and most common tasks. The vectorized icons can have blending options added as well.
-
-# Technique
-
-The effects are rendered each on a separate UIViews that are placed above the target layer in the view hierarchy. This allows for setting the opacity of each effect separately, including the layer itself.
+The iOS community is strong and it is becoming larger every day. That is why DesignKit is developing rapidly and the main API is also changing rapidly. We do not recommend you use it in production just yet. API will be finalised by version 1.0 and will not change until version 2.0.
 
 Compatibility
 ========
 
-The framework requires iOS 7 or Mac OS X 10.9.
+The framework requires iOS 7. Mac OS X is currently not supported.
 
 Testing
 ========
-Just download the zip and open the sample project.
+Just download the zip and open the sample project or try:
+
+`pod try DesignKit`
 
 Contributions
 ======
 
-The following projects were a great help in creating the **DesignKit**.
+A big thanks goes to all contributors of the following projects, which were a great help in creating the **DesignKit**.
 
+- https://github.com/tombenner/nui
+- https://github.com/SVGKit/SVGKit
+- https://github.com/cloudkite/Masonry
 - https://github.com/bengotow/PSDWriter
 - https://github.com/layervault/psd.rb
 
@@ -119,4 +99,4 @@ Dal Rupnik
 License
 ======
 
-MIT License. See [LICENSE](https://github.com/Legoless/DesignKit/blob/master/LICENSE) file for more information.
+DesignKit is available under the MIT license. See [LICENSE](https://github.com/Legoless/DesignKit/blob/master/LICENSE) file for more information.

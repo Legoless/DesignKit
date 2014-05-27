@@ -16,6 +16,7 @@
 #import "DKConstants.h"
 
 @interface DKSandboxViewController ()
+
 @property (weak, nonatomic) IBOutlet UIButton *topLeftButton;
 @property (weak, nonatomic) IBOutlet UIButton *topRightButton;
 @property (weak, nonatomic) IBOutlet UIButton *bottomLeftButton;
@@ -53,7 +54,7 @@
 
     [self.topRightButton setTitleColor:[UIColor yellowColor] forState:UIControlStateHighlighted];
 
-    [self.bottomLeftButton.viewStyle setPropertyForKey:DKPropertyFontColor withProperty:@"#FF0000"];
+    [self.bottomLeftButton.viewStyle setProperty:@"#FF0000" forKey:DKPropertyFontColor];
 
     //[self.bottomRightButton.viewStyle setPropertyForKey:DKPropertyBackgroundColor withProperty:@"#FF0000"];
     //[self.bottomRightButton.viewStyle setPropertyForKey:DKPropertyFontColor withProperty:@"#FFFFFF"];

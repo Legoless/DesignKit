@@ -67,4 +67,9 @@
  */
 - (void)addStyle:(DKStyle *)style;
 
+/*!
+ * Stores stylesheet and appends .nss extension
+ */
+- (void)exportToFile:(NSString *)path;
+
 @end
