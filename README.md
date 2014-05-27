@@ -63,7 +63,7 @@ Following the milestones above, DesignKit is organized into multiple modules, wh
 ## Usage
 
 Our [**Usage**](https://github.com/Legoless/DesignKit/blob/master/Documentation/Examples/Usage.md) section has many samples on how to use DesignKit. There are also many other sample projects/libraries that use DesignKit:
-- [DRCameraView)(https://github.com/Legoless/DRCameraView)
+- [DRCameraView](https://github.com/Legoless/DRCameraView)
 
 ## Development
 
