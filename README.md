@@ -22,13 +22,13 @@ The mission of this innovative iOS framework is to enhance and speed up the crea
   
     Read more about **plugins** in DesignKit.
 
-- **Adds multiple design sources that can used in many projects out of the box:**
+- **Adds design sources that can used in multiple projects:**
   
   *There are multiple resources available in DesignKit that help iOS developers create common interface elements faster. Those include most common used colors, such as Facebook color, common usage and social icons.*
   
     Read more about **resources** in DesignKit. 
   
-  - **Reduces application's memory fingerprint by utilizing vector graphics:**
+- **Reduces application's memory fingerprint by utilizing vector graphics:**
     
     *Vector graphics require very small memory fingerprint, while keeping animations and interaction fast and fluid.*
     
@@ -38,41 +38,53 @@ The mission of this innovative iOS framework is to enhance and speed up the crea
 
 Ideas for this project come out of multiple frameworks in many different technologies. Here are a few examples:
 - **Styling** is decoupled from business logic on many platforms for example in World Wide Web and Windows Presentation Foundation, including Windows Phone.
+
 - **Vector graphics** is used on map platforms, because it is small to transfer over network connection. It is also very easy to modify. Simply change the color in code (yes, I know about tintColor property).
-- **Resources** are shared throughout multiple projects, for example: Share to Facebook usually contains Facebook icon with Facebook trademark color. Why should we always search for it, through other projects
+
+- **Resources** are shared throughout multiple projects, for example: Share to Facebook usually contains Facebook icon with Facebook trademark color. Why should we always search for it, through other projects and copy paste them?
+
 - **Layout** is sometimes a pain. Even with second iteration of auto-layout there is still a lot of layouts that are a pain to create. Inspired by Windows Presentation Foundation we use special layout managers that make this easy.
 
 ## Code Structure
 
 Following the milestones above, DesignKit is organized into multiple modules, which can be installed via CocoaPod's Subspecs.
-- DesignKit
+- `DesignKit`
+  
   Contains all subspecs, except for resources and main UI styling functionality.
-- DesignKit/Core
+
+- `DesignKit/Core`
+  
   Contains basic design oriented functionalities and helper functions used in almost every project.
-- DesignKit/Drawing
-  Classes will enable you to draw vector shapes to existing UI elements, such as UIButton or UIView.
-- DesignKit/Layout
-  Contains improved layout managers for all children with  
-- DesignKit/Storyboard
+
+- `DesignKit/Drawing`
+  
+  Classes will enable you to draw vector shapes to existing UI elements, such as `UIButton` or `UIView`.
+
+- `DesignKit/Layout`
+  
+  Contains improved layout managers for all children with ideas based on XAML. 
+
+- `DesignKit/Storyboard`
   
   Storyboard utilities, helpers and that help you utilize Storyboard's full power. Divide view controllers into logic groups, or just use it to design your custom views.
-- DesignKit/Resource
+
+- `DesignKit/Resource`
   
   Resources include icons, colors, gradients - all in vector format, ready to be used in combination with Drawing subspec.
 
 ## Usage
 
-Our [**Usage**](https://github.com/Legoless/DesignKit/blob/master/Documentation/Examples/Usage.md) section has many samples on how to use DesignKit. There are also many other sample projects/libraries that use DesignKit:
+Our [**Usage**](https://github.com/Legoless/DesignKit/blob/master/Documentation/Examples/Usage.md) section has many samples on how to use **DesignKit**. There are also many other sample projects/libraries that use DesignKit:
 - [DRCameraView](https://github.com/Legoless/DRCameraView)
 
 ## Development
 
-The iOS community is strong and it is becoming larger every day. That is why DesignKit is developing rapidly and the main API is also changing rapidly. We do not recommend you use it in production just yet. API will be finalised by version 1.0 and will not change until version 2.0.
+The iOS community is strong and it is becoming larger every day. That is why **DesignKit** is developing rapidly and the main API is also changing rapidly. We do not recommend you use it in production just yet. API will be finalised by version 1.0 and will not change until version 2.0.
 
 Compatibility
 ========
 
-The framework requires iOS 7. Mac OS X is currently not supported.
+The framework requires **iOS 7**. Mac OS X is currently not supported.
 
 Testing
 ========
