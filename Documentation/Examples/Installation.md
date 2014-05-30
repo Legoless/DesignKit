@@ -25,3 +25,5 @@ You can easily setup the framework by calling setup method:
 Alternatively, `useStylesheet` method will also setup DesignKit, so you can load a specific stylesheet on start already:
 
 `[DesignKit useStylesheet:@"MyStyle"];`
+
+Read more about styling in **Styling**.
