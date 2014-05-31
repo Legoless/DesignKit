@@ -56,4 +56,4 @@ Styling the application is done by using 3 important elements:
 
 ### Usage
 
-Enough theory. The **usage** section has many samples of what can be done with styling in DesignKit.
+Enough theory. The **usage** section has many samples of what can be done with styling in **DesignKit**.
