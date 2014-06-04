@@ -61,3 +61,19 @@ Each drawing block is provided with parameters, which you can use to customize y
 - `DKDrawingParameterOrientation` - Current user interface orientation.
 - `DKDrawingParameterColor` - Main color of the element (if supported).
 - `DKDrawingParameterSecondaryColor` - Secondary color of the element (if supported).
+
+Parameters can be pulled out of `DKParameters` class, which works very similar to a `NSDictionary`:
+
+```objective-c
+DKDrawingBlock ellipse = ^(CGRect rect, DKParameters* parameters)
+{
+    UIBezierPath* ellipse = [UIBezierPath bezierPathWithOvalInRect:rect];
+    
+    UIColor* color = parameters[DKDrawingParameterColor];
+    [color setFill];
+    
+    [ellipse fill];
+};
+```
+
+Not all parameters are provided to each block, so be sure to protect your code against `nil` values. For example, colors are only provided if they are set directly on the element.
