@@ -42,6 +42,8 @@ myDrawingView.drawingBlock = redEllipse;
 The view will immediately redraw itself using the provided block.
 Property always sets the drawing block for default UI state, which is `UIControlStateNormal`.
 
+Unless you change the drawing block, the block will only be called when needed (such as orientation change). This is to keep the load to a minimum.
+
 Certain UI elements, such as `DKButton` have additional methods to enable you to set different drawing blocks for different states of the element. For example, `UIButton` sets it's state to `UIControlStateHighlighted` when pressed. So to make the button call another drawing block when pressed, simply set the block for highlighted state.
 
 ```objective-c
