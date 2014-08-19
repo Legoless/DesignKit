@@ -95,7 +95,7 @@ Just download the zip and open the sample project or try:
 Contributions
 ======
 
-A big thanks goes to all contributors of the following projects, which were a great help in creating the **DesignKit**.
+A big thanks goes to all **contributors** of the following projects, which were a great help in creating the **DesignKit**.
 
 - https://github.com/tombenner/nui
 - https://github.com/SVGKit/SVGKit
