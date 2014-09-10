@@ -106,6 +106,10 @@ A big thanks goes to all **contributors** of the following projects, which were 
 TODO
 ======
 
+- Swift support
+- Unit tests
+
+
 Contact
 ======
 
