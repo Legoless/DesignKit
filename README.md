@@ -108,6 +108,7 @@ TODO
 
 - Swift support
 - Unit tests
+- Refactor
 
 
 Contact
