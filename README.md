@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/Legoless/DesignKit/master/Assets/designkit-logo.png" alt="DesignKit" title="DesignKit">
 </p>
 
-[![Build Status](https://travis-ci.org/Legoless/DesignKit.svg)](https://travis-ci.org/Legoless/DesignKit) [![Version Badge](https://cocoapod-badges.herokuapp.com/v/Haystack/badge.png)](http://www.google.com)  [![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/NSStringMask/badge.svg)](https://cocoadocs.org/docsets/NSStringMask)  [![License Badge](https://go-shields.herokuapp.com/license-MIT-blue.png)](http://www.google.com) 
+[![Build Status](https://travis-ci.org/Legoless/DesignKit.svg)](https://travis-ci.org/Legoless/DesignKit) [![Version Badge](https://cocoapod-badges.herokuapp.com/v/Haystack/badge.png)](http://www.google.com)  [![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/NSStringMask/badge.svg)](https://cocoadocs.org/docsets/NSStringMask) [![Pod License](http://img.shields.io/cocoapods/l/Alpha.svg?style=flat)](http://opensource.org/licenses/MIT)
 
 The mission of this innovative iOS framework is to enhance and speed up the creation of beautiful iOS applications, while keeping the learning curve as easy as possible. This is done by following the next milestones:
 
